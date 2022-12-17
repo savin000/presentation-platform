@@ -2,5 +2,7 @@
     --background: #F4F4F4;
     --default-white: #FFFFFF;
     --default-red: #E61643;
-    --light-red: rgba(230, 22, 67, 0.5),
+    --light-red: rgba(230, 22, 67, 0.5);
+    --default-cyan: #16e6b4;
+    --light-cyan: rgba(22, 230, 180, 0.5);
 }
