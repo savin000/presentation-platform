@@ -1,18 +1,18 @@
 .card {
     background: linear-gradient(
     to bottom,
-    var(--light-red) 0%,
-    var(--light-red) 45%,
+    var(--light-cyan) 0%,
+    var(--light-cyan) 45%,
     var(--default-white) 45%,
     var(--default-white) 100%
     );
 
     border-radius: 32px;
     height: 40vmin;
-    width: 90vmin;
 
     display: flex;
     flex-direction: row;
+    margin-left: var(--default-padding);
 }
 
 .main-info {

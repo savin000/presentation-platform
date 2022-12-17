@@ -1,7 +1,7 @@
 import React from 'react';
-import "../styles/components/profile.css"
+import "../styles/components/profile-card.css"
 
-export default function Profile(props) {
+export default function ProfileCard(props) {
     const buttonAction = props.action;
     const name = props.name
     const additionalInfo = props.additionalInfo;
