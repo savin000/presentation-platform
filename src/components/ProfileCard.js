@@ -7,7 +7,7 @@ export default function ProfileCard(props) {
     const additionalInfo = props.additionalInfo;
 
     return (
-        <div className="card">
+        <div className="profile-card">
             <div className="main-info">
                 <div className="circle"></div>
 
@@ -33,7 +33,6 @@ export default function ProfileCard(props) {
 
                 <p className="description">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
             </div>
         </div>

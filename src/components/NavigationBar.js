@@ -13,6 +13,10 @@ const makeSelected = event => {
     event.target.classList.add("selected");
 }
 
+const restrictDrag = event => {
+    return false;
+}
+
 export default function NavigationBar() {
     return (
         <nav className="menu">

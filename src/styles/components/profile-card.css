@@ -1,4 +1,4 @@
-.card {
+.profile-card {
     background: linear-gradient(
     to bottom,
     var(--light-cyan) 0%,
@@ -15,11 +15,11 @@
     margin-left: var(--default-padding);
 }
 
-.main-info {
+.profile-card .main-info {
     margin-left: 2vmin;
 }
 
-.circle {
+.profile-card .circle {
     line-height: 0;
     display: block;
     height: 15vmin;
@@ -31,22 +31,22 @@
     margin-top: 8vmin;
 }
 
-.about {
+.profile-card .about {
     margin-top: 2vmin;
     width: 20vmin;
     position: center;
     margin-right: 0;
 }
 
-.about h1 {
+.profile-card .about h1 {
     font-weight: 600;
 }
 
-.about span {
+.profile-card .about span {
     font-weight: 500;
 }
 
-.action-button {
+.profile-card .action-button {
     margin-top: 2vmin;
     border: 2px solid #9F9F9F;
     background: var(--default-white);
@@ -56,11 +56,11 @@
     width: 25vmin;
 }
 
-.action-button:active {
+.profile-card .action-button:active {
     background: var(--background);
 }
 
-.secondary-info {
+.profile-card .secondary-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,7 +69,7 @@
     margin-left: 10vw;
 }
 
-.description {
+.profile-card .secondary-info .description {
     margin-top: 10px;
     font-weight: 500;
     /*text-overflow: ellipsis;*/
@@ -82,15 +82,15 @@
 }
 
 /*todo: check below*/
-.statistics h2 {
+.profile-card .secondary-info .statistics h2 {
     font-weight: 500;
     display: inline-block;
 }
 
-.statistics h2:last-child {
+.profile-card .secondary-info .statistics h2:last-child {
     margin-left: 10px;
 }
 
-.statistics h2 span{
+.profile-card .secondary-info .statistics h2 span{
     font-weight: 600;
 }

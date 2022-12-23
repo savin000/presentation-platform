@@ -1,7 +1,7 @@
 .menu {
     background: var(--default-white);
     border-radius: 42px;
-    width: 25%;
+    min-width: 15%;
 }
 
 .menu ul {

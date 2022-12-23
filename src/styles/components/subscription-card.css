@@ -1,0 +1,31 @@
+.subscription-card {
+    background: var(--default-white);
+
+    border-radius: 32px;
+    height: 10vmin;
+
+    display: flex;
+    flex-direction: row;
+    margin-left: var(--default-padding);
+}
+
+.subscription-card .circle {
+    line-height: 0;
+    display: block;
+    height: 5vmin;
+    width: 5vmin;
+    border: 4px solid var(--default-white);
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.1));
+    border-radius: 50%;
+    background: var(--background);
+    margin-top: 3vmin;
+    margin-left: 3vmin;
+}
+
+.subscription-card .about {
+    margin-top: 2vmin;
+    margin-left: 2vmin;
+    width: 20vmin;
+    position: center;
+    margin-right: 0;
+}
